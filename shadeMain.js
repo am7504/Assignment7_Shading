@@ -99,7 +99,7 @@ function setUpPhong(program) {
   gl.uniform1f(program.ka, 1.0);  // Ambient
   gl.uniform1f(program.kd, 0.7);  // Diffuse
   gl.uniform1f(program.ks, 0.6);  // Specular
-  gl.uniform1f(program.ke, 6.0); // Shininess
+  gl.uniform1f(program.ke, 4.0); // Shininess
 }
 
 
